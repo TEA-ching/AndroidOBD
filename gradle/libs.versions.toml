@@ -1,5 +1,5 @@
 [versions]
-minSdk = "28"
+minSdk = "26"
 targetSdk = "36"
 gradle = "8.14.3"
 

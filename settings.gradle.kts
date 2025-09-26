@@ -32,7 +32,7 @@ develocity {
 }
 
 val remoteCacheUrl: String? by extra
-val cacheUrl: String? = if (System.getenv("REMOTE_CACHE_URL") == null) remoteCacheUrl as String else System.getenv("REMOTE_CACHE_URL")
+val cacheUrl: String? = System.getenv("REMOTE_CACHE_URL") ?: remoteCacheUrl
 
 if (cacheUrl != null) {
     buildCache {
