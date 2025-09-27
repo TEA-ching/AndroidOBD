@@ -1,14 +1,14 @@
-package com.pnuema.android.obd.statics
+package ua.pp.teaching.android.obd.statics
 
 import android.bluetooth.BluetoothSocket
 import android.util.Log
-import com.pnuema.android.obd.commands.OBDCommand
-import com.pnuema.android.obd.enums.ObdModes
-import com.pnuema.android.obd.enums.ObdProtocols
-import com.pnuema.android.obd.models.PID
-import com.pnuema.android.obd.statics.ObdLibrary.TAG
-import com.pnuema.android.obd.statics.PIDUtils.getPid
-import com.pnuema.android.obd.statics.PersistentStorage.clearAll
+import ua.pp.teaching.android.obd.commands.OBDCommand
+import ua.pp.teaching.android.obd.enums.ObdModes
+import ua.pp.teaching.android.obd.enums.ObdProtocols
+import ua.pp.teaching.android.obd.models.PID
+import ua.pp.teaching.android.obd.statics.ObdLibrary.TAG
+import ua.pp.teaching.android.obd.statics.PIDUtils.getPid
+import ua.pp.teaching.android.obd.statics.PersistentStorage.clearAll
 import java.io.IOException
 
 @Suppress("unused")

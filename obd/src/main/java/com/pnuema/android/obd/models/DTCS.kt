@@ -1,4 +1,4 @@
-package com.pnuema.android.obd.models
+package ua.pp.teaching.android.obd.models
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

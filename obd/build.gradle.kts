@@ -8,12 +8,13 @@ plugins {
 }
 
 val gitVersionName: String by rootProject.extra
-version = gitVersionName
+val versionName = project.properties["VERSION_NAME"].toString()
+version = versionName
 group = project.properties["GROUP"].toString()
 
 android {
     base.archivesName.set("obd")
-    namespace = "com.pnuema.android.obd"
+    namespace = "ua.pp.teaching.android.obd"
     compileSdk = libs.versions.targetSdk.get().toInt()
     defaultConfig {
         minSdk = libs.versions.minSdk.get().toInt()
@@ -44,7 +45,7 @@ dependencies {
 
 tasks.register("version") {
     doFirst {
-        println("Version Name: $gitVersionName")
+        println("Version Name: $versionName")
     }
 }
 

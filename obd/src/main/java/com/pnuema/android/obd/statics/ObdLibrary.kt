@@ -10,7 +10,7 @@
  * TO REPRODUCE, DISCLOSE OR DISTRIBUTE ITS CONTENTS, OR TO MANUFACTURE, USE, OR SELL ANYTHING THAT IT  MAY DESCRIBE, IN WHOLE OR IN PART.
  */
 
-package com.pnuema.android.obd.statics
+package ua.pp.teaching.android.obd.statics
 
 import android.app.Application
 import java.io.InputStream

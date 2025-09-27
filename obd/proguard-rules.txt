@@ -28,11 +28,11 @@
     kotlinx.serialization.KSerializer serializer(...);
 }
 
--keep,includedescriptorclasses class com.pnuema.android.obd.**$$serializer { *; }
--keepclassmembers class com.pnuema.android.obd.** {
+-keep,includedescriptorclasses class ua.pp.teaching.android.obd.**$$serializer { *; }
+-keepclassmembers class ua.pp.teaching.android.obd.** {
     *** Companion;
 }
--keepclasseswithmembers class com.pnuema.android.obd.** {
+-keepclasseswithmembers class ua.pp.teaching.android.obd.** {
     kotlinx.serialization.KSerializer serializer(...);
 }
 # ----- KotlinX Serialization -----

@@ -10,9 +10,9 @@
  * TO REPRODUCE, DISCLOSE OR DISTRIBUTE ITS CONTENTS, OR TO MANUFACTURE, USE, OR SELL ANYTHING THAT IT  MAY DESCRIBE, IN WHOLE OR IN PART.
  */
 
-package com.pnuema.android.obd.statics
+package ua.pp.teaching.android.obd.statics
 
-import com.pnuema.android.obd.models.PID
+import ua.pp.teaching.android.obd.models.PID
 
 /**
  * Storage for the persistent pids so they dont have to be retrieved more than once.

@@ -10,10 +10,10 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.pnuema.android.obd.statics
+package ua.pp.teaching.android.obd.statics
 
-import com.pnuema.android.obd.models.DTC
-import com.pnuema.android.obd.models.DTCS
+import ua.pp.teaching.android.obd.models.DTC
+import ua.pp.teaching.android.obd.models.DTCS
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 import java.io.IOException

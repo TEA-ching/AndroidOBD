@@ -1,4 +1,4 @@
-package com.pnuema.android.obd.statics
+package ua.pp.teaching.android.obd.statics
 
 import java.io.BufferedReader
 import java.io.IOException

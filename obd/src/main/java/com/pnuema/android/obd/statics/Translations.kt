@@ -1,7 +1,7 @@
-package com.pnuema.android.obd.statics
+package ua.pp.teaching.android.obd.statics
 
-import com.pnuema.android.obd.R
-import com.pnuema.android.obd.models.PID
+import ua.pp.teaching.android.obd.R
+import ua.pp.teaching.android.obd.models.PID
 import java.util.*
 
 /**

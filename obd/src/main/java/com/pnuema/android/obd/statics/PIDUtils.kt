@@ -10,13 +10,13 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.pnuema.android.obd.statics
+package ua.pp.teaching.android.obd.statics
 
 import android.util.Log
 import android.util.SparseArray
-import com.pnuema.android.obd.enums.ObdModes
-import com.pnuema.android.obd.models.PID
-import com.pnuema.android.obd.models.PIDS
+import ua.pp.teaching.android.obd.enums.ObdModes
+import ua.pp.teaching.android.obd.models.PID
+import ua.pp.teaching.android.obd.models.PIDS
 import kotlinx.serialization.json.Json
 import java.io.IOException
 import java.util.*

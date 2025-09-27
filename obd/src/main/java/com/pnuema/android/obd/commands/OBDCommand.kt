@@ -12,13 +12,13 @@
  */
 @file:Suppress("unused")
 
-package com.pnuema.android.obd.commands
+package ua.pp.teaching.android.obd.commands
 
 import android.util.Log
 import com.ezylang.evalex.Expression
 import com.ezylang.evalex.config.ExpressionConfiguration
-import com.pnuema.android.obd.models.PID
-import com.pnuema.android.obd.statics.Translations
+import ua.pp.teaching.android.obd.models.PID
+import ua.pp.teaching.android.obd.statics.Translations
 
 
 /**

@@ -6,13 +6,14 @@
 
 ### What is this repository for? ###
 
+This fork is only a extension for using with Android 8.0+ (API 26+).  
 This project offers a developer friendly interface to communicate with ELM 327 OBD devices via BLUETOOTH.
 
 ### Usage ###
 
 Add Dependency:
 ```Gradle
-implementation 'com.pnuema.android:obd:1.8.1'
+implementation 'ua.pp.teaching.android-obd-1.8.1'
 ```
 
 To get started you will need to first send a few commands over bluetooth or usb whatever the input stream is that you negotiate with the ELM-327 device.

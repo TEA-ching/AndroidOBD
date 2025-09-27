@@ -12,10 +12,10 @@
  */
 @file:Suppress("unused")
 
-package com.pnuema.android.obd.commands
+package ua.pp.teaching.android.obd.commands
 
-import com.pnuema.android.obd.models.PID
-import com.pnuema.android.obd.statics.PersistentStorage
+import ua.pp.teaching.android.obd.models.PID
+import ua.pp.teaching.android.obd.statics.PersistentStorage
 import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStream

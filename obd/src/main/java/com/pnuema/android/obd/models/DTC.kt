@@ -12,9 +12,9 @@
  */
 @file:Suppress("unused")
 
-package com.pnuema.android.obd.models
+package ua.pp.teaching.android.obd.models
 
-import com.pnuema.android.obd.enums.ObdModes
+import ua.pp.teaching.android.obd.enums.ObdModes
 import kotlinx.serialization.Serializable
 
 /**

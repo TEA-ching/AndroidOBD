@@ -11,7 +11,7 @@
             tools:node="merge">
             <!-- This entry makes ObdInitializer discoverable. -->
             <meta-data
-                android:name="com.pnuema.android.obd.ObdInitializer"
+                android:name="ua.pp.teaching.android.obd.ObdInitializer"
                 android:value="androidx.startup" />
 
         </provider>

@@ -12,3 +12,4 @@ javadoc/
 *.apk
 *.class
 *.xml
+.DS_Store

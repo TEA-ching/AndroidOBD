@@ -10,7 +10,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.pnuema.android.obd.enums
+package ua.pp.teaching.android.obd.enums
 
 import java.lang.Long.parseLong
 
