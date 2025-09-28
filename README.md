@@ -13,7 +13,7 @@ This project offers a developer friendly interface to communicate with ELM 327 O
 
 Add Dependency:
 ```Gradle
-implementation 'ua.pp.teaching.android-obd-1.8.1a'
+implementation 'ua.pp.teaching.android-obd-1.8.1b'
 ```
 
 To get started you will need to first send a few commands over bluetooth or usb whatever the input stream is that you negotiate with the ELM-327 device.
