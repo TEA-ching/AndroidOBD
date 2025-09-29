@@ -6,14 +6,18 @@
 
 ### What is this repository for? ###
 
-This fork is only a extension for using with Android 8.0+ (API 26+).  
+This fork is only a extension of the original project for using with Android 8.0+ (API 26+).  
+It also adds a OdbInitSequence.run surcharge for using stream based connections.
+
+**You probably want to use the original project.**ss
+
 This project offers a developer friendly interface to communicate with ELM 327 OBD devices via BLUETOOTH.
 
 ### Usage ###
 
 Add Dependency:
 ```Gradle
-implementation 'ua.pp.teaching.android-obd-1.8.1b'
+implementation 'ua.pp.teaching.android-obd-1.8.2'
 ```
 
 To get started you will need to first send a few commands over bluetooth or usb whatever the input stream is that you negotiate with the ELM-327 device.
@@ -21,6 +25,8 @@ To get started you will need to first send a few commands over bluetooth or usb 
 Connection and init:
 ```
 val connected = ObdInitSequence.run(bluetoothSocket)
+// or if you have your own input/output streams
+val connected = ObdInitSequence.run(inputStream, outputStream)
 ```
 
 Once a connection has been established and inited you can send commands and get responses as follows:
