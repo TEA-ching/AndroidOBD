@@ -9,7 +9,7 @@
 This fork is only a extension of the original project for using with Android 8.0+ (API 26+).  
 It also adds a OdbInitSequence.run surcharge for using stream based connections.
 
-**You probably want to use the original project.**ss
+**You probably want to use the original project.**
 
 This project offers a developer friendly interface to communicate with ELM 327 OBD devices via BLUETOOTH.
 
